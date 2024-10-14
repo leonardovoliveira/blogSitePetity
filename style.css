@@ -62,26 +62,40 @@ body{
 }
 
 .titulo{
-    color: whitesmoke;
-    margin: 0.7rem;
+    color: black;
+    font-weight: bold;
+    margin: 0 0.7rem;
     text-align: center;
     font-family: var(--segundaFonte);
     background-image: var(--botoes);
 }
 
+.artigos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 .descricao{
     color: whitesmoke;
-    margin: 1rem 0rem 0.7rem 0.7rem;
+    margin: 0rem 0.7rem 0.7rem 0.7rem;
     text-align: center;
     font-family: var(--terceiraFonte);
+    border: whitesmoke solid 0.1rem;
+    padding: 0.6rem;
 }
 
 .linkSaibaMais{
     display: flex;
     text-decoration: none;
-    color: whitesmoke;
-    justify-content: end;
+    background-image: var(--botoes);
+    font-family: var(--terceiraFonte);
+    color: black;
     margin: 0.5rem;
+    border-radius: 1.5rem;
+    width: fit-content;
+    padding: 0.3rem;
+    align-self: flex-end;
 }
 
 /* FOOTER */
@@ -113,6 +127,8 @@ hr{
 }
 
 .dev{
+    font-family: var(--terceiraFonte);
+    font-size: small;
     margin-top: 2rem;
     margin-bottom: 0;
     display: flex;
