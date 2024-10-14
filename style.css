@@ -107,3 +107,15 @@ body{
     align-items: center;
     color: whitesmoke;
 }
+
+hr{
+    height: 0.07rem;
+}
+
+.dev{
+    margin-top: 2rem;
+    margin-bottom: 0;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+}
