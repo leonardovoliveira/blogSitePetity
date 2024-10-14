@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+/* RESERT BASICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontePadrao);
+    font-size: 16px;
+  }
+:root{
+    --backgroudcolor: linear-gradient(to left, #434343 0%, black 100%);
+    --botoes: linear-gradient(to top, #f093fb 0%, #f5576c 100%);
+    --fontePadrao: "Montserrat", sans-serif;
+    --segundaFonte: "Playwrite GB S", sans-serif;
+    --terceiraFonte: "Josefin Sans", serif;
+}
+
+body{
+    background-image: var(--backgroudcolor);
+}
+
+
+/* MENU */
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.linkMenu {
+    text-decoration: none;
+    color: #000;
+}
+
+.navegacaoMenu{
+    padding: 0.5rem;
+}
+
+.listaMenu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.itemMenu{
+    list-style: none;
+    margin: 1rem 0rem 0rem 0.7rem;
+    padding: 0.3rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    background-image: var(--botoes);
+    font-family: var(--terceiraFonte);
+    font-size: 0.95rem;
+}
+
+/*SECTION INICIO*/
+
+.inicio{
+    margin-top: 1rem;
+    overflow: scroll;
+    height: 30rem;
+}
+
+.titulo{
+    color: whitesmoke;
+    margin: 0.7rem;
+    text-align: center;
+    font-family: var(--segundaFonte);
+    background-image: var(--botoes);
+}
+
+.descricao{
+    color: whitesmoke;
+    margin: 1rem 0rem 0.7rem 0.7rem;
+    text-align: center;
+    font-family: var(--terceiraFonte);
+}
+
+.linkSaibaMais{
+    display: flex;
+    text-decoration: none;
+    color: whitesmoke;
+    justify-content: end;
+    margin: 0.5rem;
+}
+
+/* FOOTER */
+
+.rodape{
+    display: flex;
+    margin: 0.7rem;
+    justify-content: space-evenly;
+}
+
+.logoSocial{
+    width: 2.5rem;
+    border-radius: 1.5rem;
+    background-image: var(--botoes);
+    margin: 0.5rem;
+    padding: 0.1rem;
+}
+
+.linkSocial{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    color: whitesmoke;
+}
