@@ -8,6 +8,8 @@
     font-family: var(--fontePadrao);
     font-size: 16px;
   }
+
+/* VARIAVEIS */  
 :root{
     --backgroudcolor: linear-gradient(to left, #434343 0%, black 100%);
     --botoes: linear-gradient(to top, #f093fb 0%, #f5576c 100%);
@@ -16,16 +18,21 @@
     --terceiraFonte: "Josefin Sans", serif;
 }
 
+/* BACKGROUND */
 body{
     background-image: var(--backgroudcolor);
 }
 
-
 /* MENU */
-.logo{
+.barraSuperior{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
     margin-top: 1.5rem;
+    width: 5rem;
 }
 
 .linkMenu {

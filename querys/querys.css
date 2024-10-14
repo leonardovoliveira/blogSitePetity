@@ -1,0 +1,52 @@
+
+@media (min-width: 520px) {
+    .barraSuperior{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .logo {
+        width:10rem;
+    }
+}
+
+@media (min-width: 720px) {
+    .logo {
+        width:11rem;
+    }
+
+    .itemMenu{
+        padding: 0.5rem;
+        border-radius: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    
+    .rodape{
+        display: flex;
+        margin: 0.7rem;
+        justify-content: flex-end;
+    }
+
+    .logoSocial{
+        width: 2rem;
+        border-radius: 1rem;
+    }
+
+    .linkSocial{
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 980px) {
+    .logo {
+        width:12rem;
+    }
+}
