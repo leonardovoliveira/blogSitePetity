@@ -19,7 +19,7 @@
 */
 
 body{
-    margin: 3rem;
+    margin: 1rem;
     background: var(--background);
     color: whitesmoke;
 }
@@ -82,9 +82,25 @@ body{
 }
 
 .button{
-    font-size: 1rem;
     font-family: var(--fonteSecundaria);
-    border: 0.1rem solid whitesmoke;
-    padding: 0.3rem;
-    border-radius: 1rem;
+    border: 0.1rem solid #865DFF;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+.button:hover{
+    background-color: #865DFF;
+    border: 0.1rem solid #865DFF;
+    border-radius: 2rem;
+    color: white;
+
+}
+
+.rodape{
+    display: flex;
+    font-family: "Montserrat";
+    font-size: 0.8rem;
+    justify-content: center;
+    margin-top: 0.3rem;
 }
