@@ -97,6 +97,33 @@ body{
 
 }
 
+.redes_links{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-family: var(--fonteSecundaria);
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.redessociais_links{
+    margin: 0.5rem;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 60%;
+    border: whitesmoke solid 0.1rem;
+    background-color: whitesmoke;
+    margin-left: 1rem;
+    transition: 1.2s;
+    cursor: pointer;
+}
+
+.redessociais_links:hover{
+    background-color: #865DFF;
+    border-color: #865DFF;
+}
+
+
 .rodape{
     display: flex;
     font-family: "Montserrat";
