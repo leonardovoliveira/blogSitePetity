@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+:root{
+    --fontPrincipal: "Playwrite GB S", cursive;
+    --fonteSecundaria: "Montserrat", serif;
+    --background: black;
+}
+/*
+   CSS INDEX
+*/
+
+body{
+    margin: 3rem;
+    background: var(--background);
+    color: whitesmoke;
+}
+
+.perfil{
+    width: 10rem;
+    height: 10rem;
+    border-radius:60%;
+    justify-content: baseline;
+    background-color: rgba(255, 255, 255, 0.175);
+    border: 0.1rem solid whitesmoke;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 1.5;
+    width: 80%;
+}
+
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 3rem;
+    font-family: var(--fontPrincipal);
+    text-align: center;
+    margin-bottom: 3rem;
+    width: 42rem;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.typing-text {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#cursor {
+    display: inline-block;
+    opacity: 1;
+    animation: blink 0.8s infinite;
+  }
+  @keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.button{
+    font-size: 1rem;
+    font-family: var(--fonteSecundaria);
+    border: 0.1rem solid whitesmoke;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}

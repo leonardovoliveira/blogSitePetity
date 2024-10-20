@@ -1,0 +1,71 @@
+@import url('/styles/style.css');
+
+/*
+   CSS CARROCEL
+*/
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.titulo_secao{
+    font-family: var(--fontPrincipal);
+}
+
+.card__projetos{
+    font-family: var(--fontPrincipal);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 3rem;
+}
+
+.lista__projetos{
+    justify-content: center;
+    border: whitesmoke solid 0.1rem;
+    border-radius: 1rem;
+    height: 31rem;
+    width: 17rem;
+}
+
+.item__projetos{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 0.1rem;
+    border-radius: 0.3rem;
+}
+
+.previa_projeto{
+    width: 17rem;
+	height: 23rem;
+}
+
+.buttonLink{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.link_previa{
+    border: 0.1rem solid #865DFF;
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    font-size: 0.7rem;
+}
+
+.link_previa:hover{
+    background-color: #865DFF;
+    border: 0.1rem solid #865DFF;
+    border-radius: 2rem;
+    color: white;
+
+}
+
+.telaPequena{
+    display: none;
+}
