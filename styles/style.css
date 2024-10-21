@@ -44,21 +44,21 @@ body{
 .apresentacao__conteudo{
     display: flex;
     flex-direction: column;
+
 }
 
 .apresentacao__conteudo__titulo{
     font-size: 3rem;
     font-family: var(--fontPrincipal);
     text-align: center;
-    margin-bottom: 3rem;
-    width: 42rem;
+    width: 45rem;
 }
 
 .apresentacao__conteudo__texto{
+    margin-top: 1rem;
     font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
-    margin-bottom: 1rem;
     text-align: center;
 }
 
@@ -98,36 +98,26 @@ body{
 }
 
 .redes_links{
-    margin-top: 1rem;
-    margin-right: 1rem;
-    font-family: var(--fonteSecundaria);
-    font-size: 1rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 .redessociais_links{
     margin: 0.5rem;
-    width: 1.9rem;
-    height: 1.9rem;
-    border-radius: 60%;
-    border: whitesmoke solid 0.1rem;
-    background-color: whitesmoke;
-    margin-left: 1rem;
-    transition: 1.2s;
-    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: var(--fonteSecundaria);
 }
 
-.redessociais_links:hover{
-    background-color: #865DFF;
-    border-color: #865DFF;
-}
-
-
-.rodape{
+.rodapeConteudo{
     display: flex;
     font-family: "Montserrat";
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     justify-content: center;
-    margin-top: 0.3rem;
+    align-items: center;
+    margin: 0.7rem;
+    padding: 0.5rem;
+}
+
+.rodapeTexto{
+    margin: 0.5rem;
 }

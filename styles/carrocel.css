@@ -10,6 +10,11 @@
 
 .titulo_secao{
     font-family: var(--fontPrincipal);
+    margin-left: 1rem;
+}
+
+.titulo_secaoTelaP{
+    display: none;
 }
 
 .card__projetos{

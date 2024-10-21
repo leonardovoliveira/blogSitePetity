@@ -11,23 +11,31 @@ body {
       font-family: var(--fontPrincipal);
     }
 
+    .apresentacao{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      margin: 0;
+  }
+
     .perfil{
         width: 5rem;
         height: 5rem;
-        align-items: center;
+        margin: 0.7rem;
     }
 
     .apresentacao__conteudo__titulo{
-        font-size: 1.2rem;
-        text-align: end;
-        width: 12rem;
+        font-size: 1.1rem;
+        text-align: center;
+        width: 20rem;
     }
 
     .apresentacao__conteudo__texto{
         font-size: 0.6rem;
         font-family: 'Montserrat', sans-serif;
-        margin-top: 0.7rem;
-        text-align: end;
+        margin: 1rem;
+        text-align: center;
     }
 
     .buttonLink{
@@ -47,9 +55,15 @@ body {
         white-space: nowrap;    /* Mantém os elementos na mesma linha, sem quebra */
     }
 
+    .titulo_secaoTelaP{
+      display: flex;
+      font-size: 0.9rem;
+      margin: 0.5rem;
+    }
+
     .barraRolagem .listaProjetos {
         display: inline-block;  /* Faz com que cada item fique em linha */
-        margin-right: 1rem;     /* Espaçamento entre os itens */
+        margin-right: 0.7rem;     /* Espaçamento entre os itens */
       }
 
     .listaProjetos{
@@ -59,13 +73,8 @@ body {
         padding: 0.5rem 0;
     }
 
-    main{
-      height: 37rem;
-    }
-
     header{
-      height: 9rem;
-      margin-top: 1rem;
+      margin-top: 2rem;
     }
     
     .button{
@@ -73,6 +82,12 @@ body {
      border-radius: 1.5rem;
      font-size: 0.8rem;
     }
+
+    .redessociais_links{
+      margin: 0.5rem;
+      font-size: 0.8rem;
+      font-family: var(--fonteSecundaria);
+  }
   }
   
   /* Tablets (768px a 1024px) */

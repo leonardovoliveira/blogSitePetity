@@ -1,5 +1,5 @@
 const textElement = document.getElementById('text');
-const text = 'Petity | Make e Acessórios';
+const text = 'Petity | Makes e Acessórios';
 let index = 0;
 
 function typeText() {
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const swiper = new Swiper('.swiper', {
 	spaceBetween: 1,
-	slidesPerView: 3,
+	slidesPerView: 3.1,
 	pagination: {
 		el: '.swiper-pagination',
 		type: '',
