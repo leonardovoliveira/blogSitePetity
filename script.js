@@ -41,9 +41,5 @@ const swiper = new Swiper('.swiper', {
 		type: '',
 	}, autoplay: {
 		delay: 1500,
-	},
-	autoplay: {
-		delay: 1500,
-	},
 }
 );
