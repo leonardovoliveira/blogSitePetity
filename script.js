@@ -39,5 +39,6 @@ const swiper = new Swiper('.swiper', {
 		el: '.swiper-pagination',
 		type: '',
 	},
+	autoplay: 1500,
 }
 );
